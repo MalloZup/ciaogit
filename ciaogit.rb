@@ -8,7 +8,7 @@ Octokit.auto_paginate = true
 File.open("repos.txt", "r") do |f|
   f.each_line do |repo|
     user_repo = @client.login + '/' + repo.strip
-    puts ":#{user_repo}::"
     @client.delete_repository(user_repo)
+    puts ":#{user_repo}:: Deleted"
   end
 end
