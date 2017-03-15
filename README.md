@@ -23,6 +23,6 @@ Configure the netrc file like this:
 machine api.github.com login MY_GITHUB_USER password MY_PASSWORD
 ```
 
-### 3) Usage:
+## 3) Usage:
 
 Once you setup, puts the name of the repo that you want to **delete permantely** on the repos.txt file
