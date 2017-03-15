@@ -16,7 +16,7 @@ gem install netrc
 
 ## 2) Configuration:
 
-The **only one** config is to have a valid ``` /~.netrc``` file and the user has to have **read access credentials** to the repo you want to test.
+The **only one** config is to have a valid ``` /~.netrc``` file with your github user-credentials
 Configure the netrc file like this:
 
 ```
