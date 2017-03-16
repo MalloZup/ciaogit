@@ -1,5 +1,2 @@
-buildbot-opensuse
-nailed
-mano-sumanager
-mangiaLava
-interactive-coding-challenges
+auto
+testing
